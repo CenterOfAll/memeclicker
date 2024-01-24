@@ -1,7 +1,7 @@
-function spawnMeme() {
+ function spawnMeme() {
             const memeImages = [
                 'meme1.png',
-                'meme2.gif',
+                'meme2.gif', // Make sure the path is correct
                 'meme3.png',
                 // Add more meme images as needed
             ];
