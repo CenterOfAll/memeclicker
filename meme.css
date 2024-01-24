@@ -1,28 +1,33 @@
-body {
-    margin: 0;
-    overflow: hidden;
-}
-#noob {
-}
-.meme {
-    position: absolute;
-    width: 50px; /* Adjust the size as needed */
-    height: 50px;
-    animation: floatAndFade 2s linear; /* Adjust the duration for visibility */
-    pointer-events: none;
-}
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        #cookie {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+        }
+        .meme {
+            position: absolute;
+            width: 50px; /* Adjust the size as needed */
+            height: 50px;
+            animation: floatAndFade 2s linear; /* Adjust the duration for visibility */
+            pointer-events: none;
+        }
 
-@keyframes floatAndFade {
-    0% {
-        transform: translate(0, 0);
-        opacity: 1;
-    }
-    50% {
-        transform: translate(calc(25px * var(--randomX)), calc(-25px * var(--randomY)));
-        opacity: 0.8;
-    }
-    100% {
-        transform: translate(calc(50px * var(--randomX)), calc(-50px * var(--randomY)));
-        opacity: 0;
-    }
-}
+        @keyframes floatAndFade {
+            0% {
+                transform: translate(0, 0);
+                opacity: 1;
+            }
+            50% {
+                transform: translate(calc(25px * var(--randomX)), calc(-25px * var(--randomY)));
+                opacity: 0.8;
+            }
+            100% {
+                transform: translate(calc(50px * var(--randomX)), calc(-50px * var(--randomY)));
+                opacity: 0;
+            }
+        }
