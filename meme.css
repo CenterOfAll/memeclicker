@@ -1,7 +1,4 @@
-        body {
-            margin: 0;
-            overflow: hidden;
-        }
+
         #cookie {
         }
         
@@ -9,8 +6,8 @@
             width: 50px; /* Adjust the size as needed */
             height: 50px;
             animation: floatAndFade 5s linear; /* Adjust the duration for visibility */
-            top: 50%;
-            left: 50%;
+            top: 100%;
+            left: 93%;
         }
 
         @keyframes floatAndFade {
